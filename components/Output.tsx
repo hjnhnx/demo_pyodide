@@ -32,7 +32,7 @@ const Output = ({ editorRef, language }: { editorRef: any, language: any }) => {
             </button>
             <br />
             <div
-                className={"h-[40vh] p-2 border rounded "}
+                className={"h-[40vh] p-2 border rounded overflow-scroll"}
             >
                 {output
                     // @ts-ignore   
